@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 07</title>
+    <style>
+        .square {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="estilo">
+        <p>Cambiar color y tamaño</p>
+    </div>
+
+    <script>
+        //cambio de estilo
+        const div = document.querySelector('#estilo');
+        div.classList.toggle('estilo');
+        //aplicando cambio
+        const style = document.querySelector('.square');
+        style.classList.add('.square');
+        //fin
+
+    </script>
+</body>
+
+</html>
